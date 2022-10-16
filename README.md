@@ -1,6 +1,6 @@
 # Delta Debugging vs QuickXplain (dd-qxp-comparison)
 
-## Prerequisits
+## Prerequisites
 * Java 17 or newer
 * Gradle 7
 * bash (for scripts)
