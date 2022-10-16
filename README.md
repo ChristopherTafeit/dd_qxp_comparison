@@ -6,16 +6,28 @@
 * bash (for scripts)
 
 ## Test case generator
+How to run:
 
 `java -jar testcase-generator.jar <amountOfTestcases> <generatorOutputPath> <amountOfFailIds>`
 
+`<amountOfTestcases>`: Specify the amount of test cases that needs to be generated
+`<generatorOutputPath>`: Specify the path to store the generated test cases
+`<amountOfFailIds>`: Specify the amount of Fail IDs that are randomly generated and therefore randomly distributed
+
 ## Real world test program
+How tu run:
 
 `java -jar external-test-runner.jar <testProgram> <testInputFile>`
 
+`<testProgram>`: Specify the external test program (external test oracle)
+`<testInputFile>`: Specify the test input file (.json)
+
 ## Artificial test program
+How to run:
 
 `java -jar test-runner.jar <testCaseDirectory>`
+
+`<testCaseDirectory>`: Specify the folder with the test input files (.json)
 
 ## Test execution
 * scripts/
